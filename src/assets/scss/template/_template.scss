@@ -1,0 +1,99 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html, 
+.body {
+  background: #0a0a0a !important;
+}
+
+.container.header {
+  background: #0a0a0a;
+}
+.row {
+  &.hero-text {
+    h5 {
+      color: #df5326;
+      font-size: 22px;
+    }
+  }
+  .hero {
+    h2 {
+      color: #df5326;
+    }
+    h5 {
+      color: #df5326;
+    }
+  }
+  &.stack {
+    // margin-top: 0px;
+    // border: 1px solid red;
+    // padding-bottom: 0px;
+    td.columns, td.column, th.columns, th.column {
+      padding-bottom: 0px;
+
+    }
+  }
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: #000000;
+}
+.callout .callout-inner.primary {
+  background: #df5326;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+table.button.highlight {
+  
+  margin-top: 16px;
+  text-align: right;
+  table td {
+    // & {
+      // margin-top: 15px !important;
+      background: #df5326 !important;
+      border-color: #df5326;
+    // }
+  }
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
