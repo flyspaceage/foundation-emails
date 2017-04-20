@@ -72,6 +72,10 @@ table .container {
   border: 2px solid #7e7e7e;
 }
 
+table.button.tiny table td {
+  font-weight: 200;
+}
+
 .header-container {
     height: 300px !important;
     background-image: url("http://flipeleven.img-us3.com/admin/flip-header.png");
@@ -138,6 +142,14 @@ table .container {
     -moz-box-shadow: 0px 0px 27px -6px rgba(0,0,0,0.75);
     box-shadow: 0px 0px 27px -6px rgba(0,0,0,0.75);
 
+    .weather-left {
+      width: 80%;
+    }
+
+    .weather-padding {
+      padding-left: 10% !important;
+    }
+
     .header-text {
       font-weight: 800;
     }
@@ -161,19 +173,22 @@ table .container {
 .portfolio {
     background-image: url("http://flipeleven.img-us3.com/admin/portfolio-bg.png");
     background-repeat: no-repeat;
-    height: 500px;
+    height: 500px !important;
     background-size: cover;
     background-position: center center;
     position: relative;
     text-align: center;
     width: 90% !important;
     margin: 0 auto;
+    -webkit-box-shadow: 0px 0px 27px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 27px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 27px -6px rgba(0,0,0,0.75);
 
   .columns {
     padding: 0 !important;
   }
 
-  .portfolio-img {
+  .hit {
     height: 100%;
     width: 100%;
   }
@@ -186,6 +201,7 @@ table .container {
     color: #ffffff;
     font-size: 10px;
     display: inline-block;
+    text-transform: uppercase;
   }
 
   .text-right {
@@ -198,18 +214,23 @@ table .container {
     height: 300px;
   }
 
+  .weather .weather-left {
+      width: 100%;
+    }
+
 
   .footer {
   background-color: #000000;
 
   p {
     color: #ffffff;
-    font-size: 7px;
-    display: inline-block;
+    font-size: 8px;
+    display: block;
+    padding-top: 10px !important;
   }
 
   .text-right {
-    float: right;
+    float: left;
   }
 }
 }
